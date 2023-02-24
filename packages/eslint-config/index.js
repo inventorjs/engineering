@@ -4,12 +4,11 @@ module.exports = {
   env: {
     es6: true,
   },
-  settings: {
-    react: {
-      version: 'detect',
-    },
-  },
-  plugins: ['import', 'prettier'],
+  plugins: [
+    '@typescript-eslint/eslint-plugin',
+    'import',
+    'prettier',
+  ],
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
