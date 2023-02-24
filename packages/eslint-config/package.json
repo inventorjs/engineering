@@ -1,6 +1,6 @@
 {
   "name": "@inventorjs/eslint-config",
-  "version": "0.0.2",
+  "version": "0.0.8",
   "description": "inventor eslint config",
   "main": "index.js",
   "exports": {

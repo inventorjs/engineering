@@ -1,6 +1,6 @@
 {
   "name": "@inventorjs/prettier-config",
-  "version": "0.0.2",
+  "version": "0.0.8",
   "description": "inventor prettier config",
   "main": "index.js",
   "scripts": {

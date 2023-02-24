@@ -3,6 +3,7 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   env: {
     es6: true,
+    node: true,
   },
   plugins: [
     '@typescript-eslint/eslint-plugin',
@@ -13,6 +14,7 @@ module.exports = {
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:import/recommended',
+    'plugin:import/typescript',
   ],
   rules: {
     'prettier/prettier': 'error',
