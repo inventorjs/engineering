@@ -20,5 +20,6 @@ module.exports = {
     'prettier/prettier': 'error',
     'no-extra-semi': 'off',
     '@typescript-eslint/no-extra-semi': 'off',
+    "import/no-unresolved": ["error", { "ignore": ["\\.js$"] } ],
   },
 }
