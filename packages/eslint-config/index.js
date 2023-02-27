@@ -7,12 +7,24 @@ module.exports = {
   },
   plugins: [
     '@typescript-eslint/eslint-plugin',
+    'import',
     'prettier',
   ],
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
+    'plugin:import/recommended'
   ],
+  settings: {
+    'import/resolver': {
+      typescript: {
+        project: [
+          '**/*/tsconfig.json',
+          'tsconfig.json'
+        ]
+      },
+    },
+  },
   rules: {
     'prettier/prettier': 'error',
     'no-extra-semi': 'off',
