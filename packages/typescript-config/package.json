@@ -1,24 +1,23 @@
 {
-  "name": "@inventorjs/prettier-config",
+  "name": "@inventorjs/typescript-config",
   "version": "0.0.15",
-  "description": "inventor prettier config",
-  "exports": "./index.js",
+  "description": "",
+  "exports": {
+    "./tsconfig.esnext.json": "./tsconfig.esnext.json"
+  },
+  "files": [
+    "tsconfig.esnext.json"
+  ],
   "homepage": "https://inventorjs.github.io",
   "repository": {
     "type": "git",
     "url": "https://github.com/inventorjs/engineering.git",
-    "directory": "packages/prettier-config"
+    "directory": "packages/typescript-config"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "sunkeysun",
-  "license": "ISC",
-  "devDependencies": {
-    "prettier": "^2.8.4"
-  },
-  "peerDependencies": {
-    "prettier": "^2.8.4"
-  }
+  "license": "ISC"
 }
