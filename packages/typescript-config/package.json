@@ -3,10 +3,12 @@
   "version": "0.0.15",
   "description": "",
   "exports": {
-    "./tsconfig.esnext.json": "./tsconfig.esnext.json"
+    "./tsconfig.json": "./tsconfig.json",
+    "./tsconfig.es5.json": "./tsconfig.es5.json"
   },
   "files": [
-    "tsconfig.esnext.json"
+    "tsconfig.json",
+    "tsconfig.es5.json"
   ],
   "homepage": "https://inventorjs.github.io",
   "repository": {
@@ -17,7 +19,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["tsconfig"],
   "author": "sunkeysun",
   "license": "ISC"
 }
