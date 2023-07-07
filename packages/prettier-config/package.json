@@ -1,6 +1,6 @@
 {
   "name": "@inventorjs/prettier-config",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "description": "inventor prettier config",
   "exports": "./index.js",
   "homepage": "https://inventorjs.github.io",
@@ -12,7 +12,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["prettier"],
+  "keywords": [
+    "prettier"
+  ],
   "author": "sunkeysun",
   "license": "ISC",
   "devDependencies": {

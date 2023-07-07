@@ -1,6 +1,6 @@
 {
   "name": "@inventorjs/eslint-config",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "description": "inventor eslint config",
   "main": "index.js",
   "exports": {
@@ -16,7 +16,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["eslint"],
+  "keywords": [
+    "eslint"
+  ],
   "author": "sunkeysun",
   "license": "ISC",
   "devDependencies": {

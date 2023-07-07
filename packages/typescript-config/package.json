@@ -1,6 +1,6 @@
 {
   "name": "@inventorjs/typescript-config",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "description": "",
   "exports": {
     "./tsconfig.json": "./tsconfig.json",
