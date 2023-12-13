@@ -1,5 +1,5 @@
 {
-  "name": "@inventorjs/eslint-config",
+  "name": "@inventorjs/eslint-config-react",
   "version": "0.1.0",
   "description": "inventor eslint config",
   "main": "index.js",
@@ -16,7 +16,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "eslint-config"
+    "eslint-config react"
   ],
   "author": "sunkeysun",
   "license": "ISC",
@@ -25,6 +25,8 @@
     "@typescript-eslint/parser": "^6.14.0",
     "eslint": "^8.34.0",
     "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "prettier": "^3.1.1",
     "typescript": "^5.3.3"
   },
@@ -33,6 +35,8 @@
     "@typescript-eslint/parser": "^6.14.0",
     "eslint": "^8.34.0",
     "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "prettier": "^3.1.1",
     "typescript": "^5.3.3"
   }

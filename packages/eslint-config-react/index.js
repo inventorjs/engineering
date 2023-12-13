@@ -14,18 +14,19 @@ module.exports = {
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
-    'plugin:react/recommend'
-    'plugin:react-hooks/recommend'
+    'plugin:react/recommended',
+    'plugin:react-hooks/recommended'
   ],
   rules: {
     'prettier/prettier': 'error',
     'no-extra-semi': 'off',
     '@typescript-eslint/no-extra-semi': 'off',
     '@typescript-eslint/no-unused-vars': [
-      'warning',
+      1,
       {
         argsIgnorePattern: '^_'
       },
     ],
+    'react/react-in-jsx-scope': 'off',
   },
 }
