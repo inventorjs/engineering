@@ -10,17 +10,22 @@ module.exports = {
       version: 'detect',
     },
   },
-  plugins: ['import', 'prettier'],
+  plugins: ['prettier', '@typescript-eslint/eslint-plugin'],
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
-    'plugin:import/recommended',
-    'plugin:import/typescript',
-    'plugin:import/react',
+    'plugin:react/recommend'
+    'plugin:react-hooks/recommend'
   ],
   rules: {
     'prettier/prettier': 'error',
     'no-extra-semi': 'off',
     '@typescript-eslint/no-extra-semi': 'off',
+    '@typescript-eslint/no-unused-vars': [
+      'warning',
+      {
+        argsIgnorePattern: '^_'
+      },
+    ],
   },
 }
